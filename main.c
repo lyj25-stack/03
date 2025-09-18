@@ -1,17 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-int main(void)
-{
-	char c;
-	int i;
-	
-	printf("input a number:");
-    scanf("%c",&c);
-    
-    i=c-'0';
-    printf("The input number is %i\n",i);
-    
-    return 0;
-}
+int main(int argc,char *argv[]){
+	char c,d;
+	 printf("enter a character :");
+	 scanf("%c",&c);
+	 d=c+1;
+	 printf("The next character of %c (%i)is %c,(%i).\n",c,c,d,d);
+
+     return 0;}
